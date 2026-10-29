@@ -4,6 +4,8 @@
 
 它是 [`crequests`](../README.md) 的 C++ 版本：网络、Cookie、重定向、TLS 等行为直接复用经过测试的 C11 核心，因此功能与 C 版保持一致；差别是 C++ 版提供 RAII 类、`std::string`、`Header`/`Json` 值类型，并把原来的“JSON 字符串”升级成真正的 JSON 值。
 
+完整 API 参考见 [`docs/API.md`](../docs/API.md)。
+
 ```cpp
 #include "cpprequests.hpp"
 

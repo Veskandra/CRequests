@@ -3,6 +3,8 @@
 一个用 C11 实现的、API 风格接近 Python `requests` 的 HTTP/HTTPS 客户端库。面向 Windows，底层直接使用 Winsock 和 Schannel，**不依赖 libcurl、OpenSSL 或其他第三方运行时**。
 
 > C++17 版本见 [`cpp/README.md`](cpp/README.md)：`cpprequests` 复用本项目的 C 核心，提供 RAII/STL API 和类型安全 JSON。
+>
+> 完整 API 参考（C + C++）见 [`docs/API.md`](docs/API.md)。
 
 ```c
 cr_response *r = cr_get(NULL, "https://example.com/");
